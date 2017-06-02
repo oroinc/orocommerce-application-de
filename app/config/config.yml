@@ -2,6 +2,9 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
 
+parameters:
+    locale: de_DE
+
 framework:
     #esi:             ~
     translator:      { fallback: en }
