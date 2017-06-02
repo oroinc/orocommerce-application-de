@@ -3,7 +3,7 @@ imports:
     - { resource: security.yml }
 
 parameters:
-    locale: de
+    locale: de_DE
 
 framework:
     #esi:             ~
