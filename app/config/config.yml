@@ -3,7 +3,7 @@ imports:
     - { resource: security.yml }
 
 parameters:
-    locale: de_DE
+    locale: de_DE #de - German, de_DE - German (Germany)
 
 framework:
     #esi:             ~
