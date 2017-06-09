@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "633beed8b0e837e08575e45ab7d51854",
+    "content-hash": "fec5754e801481d64483e5d8e6267739",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -181,72 +181,30 @@
             "time": "2015-05-31T10:10:35+00:00"
         },
         {
-            "name": "authorizenet/authorizenet",
-            "version": "1.9.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/AuthorizeNet/sdk-php.git",
-                "reference": "7db567d90192d4c9a9b9b7a817c2eb3717e1eb52"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/AuthorizeNet/sdk-php/zipball/7db567d90192d4c9a9b9b7a817c2eb3717e1eb52",
-                "reference": "7db567d90192d4c9a9b9b7a817c2eb3717e1eb52",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-json": "*",
-                "ext-simplexml": "*",
-                "ext-xmlwriter": "*",
-                "goetas-webservices/xsd2php-runtime": "^0.2.2",
-                "php": ">=5.5"
-            },
-            "require-dev": {
-                "phpmd/phpmd": "~2.0",
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "lib"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "proprietary"
-            ],
-            "description": "Official PHP SDK for Authorize.Net",
-            "homepage": "http://developer.authorize.net",
-            "keywords": [
-                "authorize.net",
-                "authorizenet",
-                "ecommerce",
-                "payment"
-            ],
-            "time": "2017-04-25T05:57:41+00:00"
-        },
-        {
             "name": "behat/transliterator",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Transliterator.git",
-                "reference": "868e05be3a9f25ba6424c2dd4849567f50715003"
+                "reference": "826ce7e9c2a6664c0d1f381cbb38b1fb80a7ee2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Transliterator/zipball/868e05be3a9f25ba6424c2dd4849567f50715003",
-                "reference": "868e05be3a9f25ba6424c2dd4849567f50715003",
+                "url": "https://api.github.com/repos/Behat/Transliterator/zipball/826ce7e9c2a6664c0d1f381cbb38b1fb80a7ee2c",
+                "reference": "826ce7e9c2a6664c0d1f381cbb38b1fb80a7ee2c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+            "require-dev": {
+                "chuyskywalker/rolling-curl": "^3.1",
+                "php-yaoi/php-yaoi": "^1.0"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -264,7 +222,7 @@
                 "slug",
                 "transliterator"
             ],
-            "time": "2015-09-28T16:26:35+00:00"
+            "time": "2017-04-04T11:38:05+00:00"
         },
         {
             "name": "besimple/soap-client",
@@ -3405,20 +3363,20 @@
         },
         {
             "name": "gedmo/doctrine-extensions",
-            "version": "v2.4.28",
+            "version": "v2.4.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "58038d5d217b6ba2c75de90cb2f6d424d86fab56"
+                "reference": "f65c02eae3bff1aa57709ea4c8ca26947df95b9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/58038d5d217b6ba2c75de90cb2f6d424d86fab56",
-                "reference": "58038d5d217b6ba2c75de90cb2f6d424d86fab56",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/f65c02eae3bff1aa57709ea4c8ca26947df95b9c",
+                "reference": "f65c02eae3bff1aa57709ea4c8ca26947df95b9c",
                 "shasum": ""
             },
             "require": {
-                "behat/transliterator": "1.1",
+                "behat/transliterator": "~1.2",
                 "doctrine/common": "~2.4",
                 "php": ">=5.3.2"
             },
@@ -3479,7 +3437,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2017-04-23T08:59:41+00:00"
+            "time": "2017-05-29T17:33:48+00:00"
         },
         {
             "name": "genemu/form-bundle",
@@ -3551,62 +3509,6 @@
                 "form"
             ],
             "time": "2016-01-27T16:52:41+00:00"
-        },
-        {
-            "name": "goetas-webservices/xsd2php-runtime",
-            "version": "v0.2.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/goetas-webservices/xsd2php-runtime.git",
-                "reference": "f62d40ad91502576d252f80143f9c0bf1a46ceec"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/goetas-webservices/xsd2php-runtime/zipball/f62d40ad91502576d252f80143f9c0bf1a46ceec",
-                "reference": "f62d40ad91502576d252f80143f9c0bf1a46ceec",
-                "shasum": ""
-            },
-            "require": {
-                "jms/serializer": "^1.2",
-                "php": ">=5.5",
-                "symfony/yaml": "^2.2|^3.0"
-            },
-            "conflict": {
-                "jms/serializer": "1.4.1|1.6.1|1.6.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8|^5.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "GoetasWebservices\\Xsd\\XsdToPhpRuntime\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL"
-            ],
-            "authors": [
-                {
-                    "name": "Asmir Mustafic"
-                }
-            ],
-            "description": "Convert XSD  (XML Schema) definitions into PHP classes",
-            "keywords": [
-                "converter",
-                "jms",
-                "php",
-                "serializer",
-                "xml",
-                "xsd"
-            ],
-            "time": "2017-05-05T14:58:17+00:00"
         },
         {
             "name": "guzzle/guzzle",
@@ -6100,11 +6002,10 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "f6593a4a5c1b9fe4cec010eb6c12a56f1a2217c6",
+                "reference": "7754fd126403a742dda5efd0bccbed38919b8850",
                 "shasum": null
             },
             "require": {
-                "authorizenet/authorizenet": "~1.9.2",
                 "besimple/soap-client": "^0.2.6",
                 "bower-asset/elevatezoom3": "3.0.8.1",
                 "bower-asset/jquery-creditcardvalidator": "1.0",
@@ -6870,7 +6771,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/german-localization",
-                "reference": "95455a68efba9480ecb2a7d3412a1611725011f5",
+                "reference": "13ec81ae2eb8230f730163219014db7c48d7ce3c",
                 "shasum": null
             },
             "require": {
@@ -6880,7 +6781,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
