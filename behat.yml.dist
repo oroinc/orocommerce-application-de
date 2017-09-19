@@ -29,5 +29,23 @@ default: &default
                 - OroShoppingListBundle::ShoppingListContext
                 - OroRedirectBundle::SlugPrototypesContext
 
+    suites:
+        OroCRMBundle:
+            contexts:
+                - Oro\Bundle\TestFrameworkBundle\Tests\Behat\Context\OroMainContext
+            paths:
+                - ./features/crm-activities-smoke-e2e.feature
+        OroApplicationBundle:
+            contexts:
+                - Oro\Bundle\TestFrameworkBundle\Tests\Behat\Context\OroMainContext
+            paths:
+                - ./features/commerce-smoke-e2e.feature
+        OroCustomerSalesBridgeBundle:
+            contexts:
+                - Oro\Bundle\TestFrameworkBundle\Tests\Behat\Context\OroMainContext
+            paths:
+                - ./features/crm-commerce-sales-flow-smoke-e2e.feature
+
+
 chromedriver:
     <<: *default
