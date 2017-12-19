@@ -25,6 +25,7 @@ default: &default
                 - OroAddressBundle::AddressContext
                 - OroApplicationBundle::CommerceMainContext
                 - OroCustomerBundle::CustomerUserContext
+                - OroShippingBundle::SingleCurrencyContext
                 - OroOrderBundle::OrderContext
                 - OroShoppingListBundle::ShoppingListContext
                 - OroRedirectBundle::SlugPrototypesContext
