@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "faed9e52bb8c7b5cfd68228ef3f97ce3",
+    "content-hash": "c93e1c459c24cd2173dc5177053c9034",
     "packages": [
         {
             "name": "akeneo/batch-bundle",
@@ -615,7 +615,7 @@
                 "shasum": null
             },
             "type": "bower-asset",
-            "time": "2014-07-21T18:45:41+00:00"
+            "time": "2014-07-21 18:45:41"
         },
         {
             "name": "bower-asset/font-awesome",
@@ -872,7 +872,7 @@
                 "shasum": null
             },
             "type": "bower-asset",
-            "time": "2017-02-08T18:28:50+00:00"
+            "time": "2017-02-08 18:28:50"
         },
         {
             "name": "bower-asset/jsplumb",
