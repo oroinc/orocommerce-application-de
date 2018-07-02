@@ -5389,16 +5389,16 @@
         },
         {
             "name": "oro/commerce",
-            "version": "1.6.15",
+            "version": "1.6.16",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocommerce/orocommerce.git",
-                "reference": "b689d39b2cea5f2964fe032e60f13ec9c7eb6e35"
+                "reference": "8e0b1c98ba26505f64cf836051ef5401de351a8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/b689d39b2cea5f2964fe032e60f13ec9c7eb6e35",
-                "reference": "b689d39b2cea5f2964fe032e60f13ec9c7eb6e35",
+                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/8e0b1c98ba26505f64cf836051ef5401de351a8f",
+                "reference": "8e0b1c98ba26505f64cf836051ef5401de351a8f",
                 "shasum": ""
             },
             "require": {
@@ -5457,7 +5457,7 @@
             ],
             "description": "OroCommerce - an open-source Business to Business Commerce application. \\nThis package contains bundles and needs to be added as a dependency in an OroCommerce application.",
             "homepage": "https://github.com/orocommerce/orocommerce",
-            "time": "2018-06-21T15:34:00+00:00"
+            "time": "2018-07-02T06:35:04+00:00"
         },
         {
             "name": "oro/commerce-crm",
@@ -5555,16 +5555,16 @@
         },
         {
             "name": "oro/commerce-infinitepay",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocommerce/OroInfinitePayBundle.git",
-                "reference": "a944604dffb8728faa2e1bf5a766015638af01ea"
+                "reference": "0f6101815ca6b31e2887455efc5195ec506c0356"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocommerce/OroInfinitePayBundle/zipball/a944604dffb8728faa2e1bf5a766015638af01ea",
-                "reference": "a944604dffb8728faa2e1bf5a766015638af01ea",
+                "url": "https://api.github.com/repos/orocommerce/OroInfinitePayBundle/zipball/0f6101815ca6b31e2887455efc5195ec506c0356",
+                "reference": "0f6101815ca6b31e2887455efc5195ec506c0356",
                 "shasum": ""
             },
             "require": {
@@ -5603,7 +5603,7 @@
                 "Oro",
                 "integration"
             ],
-            "time": "2018-01-29T15:34:08+00:00"
+            "time": "2018-06-22T12:54:59+00:00"
         },
         {
             "name": "oro/commerce-wirecard",
@@ -6116,16 +6116,16 @@
         },
         {
             "name": "oro/customer-portal",
-            "version": "2.6.15",
+            "version": "2.6.16",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/customer-portal.git",
-                "reference": "7ce7ed5880545ced1008e99a1186cf64b65e1d7d"
+                "reference": "4692ec71aaf7f28a53b2de1fd7a72c4f0dda36c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/customer-portal/zipball/7ce7ed5880545ced1008e99a1186cf64b65e1d7d",
-                "reference": "7ce7ed5880545ced1008e99a1186cf64b65e1d7d",
+                "url": "https://api.github.com/repos/orocrm/customer-portal/zipball/4692ec71aaf7f28a53b2de1fd7a72c4f0dda36c4",
+                "reference": "4692ec71aaf7f28a53b2de1fd7a72c4f0dda36c4",
                 "shasum": ""
             },
             "require": {
@@ -6162,7 +6162,7 @@
                 }
             ],
             "homepage": "https://github.com/oroinc/customer-portal",
-            "time": "2018-06-20T10:46:51+00:00"
+            "time": "2018-06-27T12:37:50+00:00"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -6319,16 +6319,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "2.6.16",
+            "version": "2.6.17",
             "source": {
                 "type": "git",
                 "url": "git@github.com:oroinc/platform.git",
-                "reference": "cb6cf0d5d6b13f0b7383bae514d45130cbb18ed7"
+                "reference": "d8832e2c9ee671350ec6e9c88d397bc8b6b9c1b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/platform/zipball/cb6cf0d5d6b13f0b7383bae514d45130cbb18ed7",
-                "reference": "cb6cf0d5d6b13f0b7383bae514d45130cbb18ed7",
+                "url": "https://api.github.com/repos/oroinc/platform/zipball/d8832e2c9ee671350ec6e9c88d397bc8b6b9c1b6",
+                "reference": "d8832e2c9ee671350ec6e9c88d397bc8b6b9c1b6",
                 "shasum": ""
             },
             "require": {
@@ -6482,7 +6482,7 @@
             ],
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/oroinc/platform.git",
-            "time": "2018-06-21T17:03:07+00:00"
+            "time": "2018-06-26T15:59:41+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
