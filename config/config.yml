@@ -152,7 +152,7 @@ oro_message_queue:
 
 oro_locale:
     formatting_code: de_DE
-    language: de
+    language: de_DE
 
 oro_attachment:
     upload_file_mime_types:
