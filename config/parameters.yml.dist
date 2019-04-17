@@ -31,6 +31,7 @@ parameters:
     session_handler:        session.handler.native_file
 
     locale:                 de_DE
+    currency:               EUR
     secret:                 ThisTokenIsNotSoSecretChangeIt
     installed:              ~
     assets_version:         ~
