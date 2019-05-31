@@ -41,7 +41,8 @@
     "oro/commerce-dpd": "4.0.x-dev",
     "oro/commerce-infinitepay": "4.0.x-dev",
     "oro/german-localization": "4.0.x-dev",
-    "oro/redis-config": "4.0.x-dev"
+    "oro/redis-config": "4.0.x-dev",
+    "oro/google-tag-manager-bundle": "4.0.x-dev"
   },
   "require-dev": {
     "sensio/generator-bundle": "3.1.*",
