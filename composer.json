@@ -35,7 +35,8 @@
     "oro/commerce-wirecard": "~3.1.1",
     "oro/commerce-infinitepay": "~3.1.1",
     "oro/commerce-dpd": "~3.1.1",
-    "oro/german-localization": "~3.1.1"
+    "oro/german-localization": "~3.1.1",
+    "oro/google-tag-manager-bundle": "~3.1.1"
   },
   "require-dev": {
     "sensio/generator-bundle": "3.1.*",
