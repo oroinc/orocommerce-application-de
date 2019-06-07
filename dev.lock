@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54c6aab09c28604fca7303a8aca817c2",
+    "content-hash": "42e9fe8eb947241ef9c3db77b4f4d4ff",
     "packages": [
         {
             "name": "akeneo/batch-bundle",
@@ -6919,6 +6919,51 @@
             "homepage": "https://github.com/orocommerce/german-localization"
         },
         {
+            "name": "oro/google-tag-manager-bundle",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/google-tag-manager",
+                "reference": "1c399d958e738bd6286b394b57a1689711d0e1d5",
+                "shasum": null
+            },
+            "require": {
+                "oro/commerce": "4.0.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Oro\\Bundle\\GoogleTagManagerBundle\\": "src/Oro/Bundle/GoogleTagManagerBundle"
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.oroinc.com"
+                }
+            ],
+            "description": "Oro Google Tag Manager integration",
+            "homepage": "https://github.com/oroinc/google-tag-manager-bundle",
+            "keywords": [
+                "Google",
+                "Integration",
+                "Manager",
+                "Oro",
+                "Tag"
+            ]
+        },
+        {
             "name": "oro/marketing",
             "version": "dev-master",
             "dist": {
@@ -13125,7 +13170,8 @@
         "oro/commerce-dpd": 20,
         "oro/commerce-infinitepay": 20,
         "oro/german-localization": 20,
-        "oro/redis-config": 20
+        "oro/redis-config": 20,
+        "oro/google-tag-manager-bundle": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
