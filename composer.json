@@ -33,7 +33,8 @@
     "oro/commerce-wirecard": "4.1.*",
     "oro/commerce-infinitepay": "4.1.*",
     "oro/commerce-dpd": "4.1.*",
-    "oro/german-localization": "4.1.*"
+    "oro/german-localization": "4.1.*",
+    "oro/mailchimp": "4.1.*"
   },
   "require-dev": {
     "behat/behat": "3.4.*",
