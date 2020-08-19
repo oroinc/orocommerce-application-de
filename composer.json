@@ -39,7 +39,8 @@
     "oro/commerce-wirecard": "4.2.*",
     "oro/commerce-infinitepay": "4.2.*",
     "oro/commerce-dpd": "4.2.*",
-    "oro/german-localization": "4.2.*"
+    "oro/german-localization": "4.2.*",
+    "oro/cookie-consent": "4.2.*"
   },
   "require-dev": {
     "behat/behat": "3.4.*",
