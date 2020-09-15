@@ -8,6 +8,7 @@ require_once __DIR__ . '/../var/SymfonyRequirements.php';
 
 use Oro\Bundle\AssetBundle\NodeJsExecutableFinder;
 use Oro\Bundle\AssetBundle\NodeJsVersionChecker;
+use Oro\Component\DoctrineUtils\DBAL\DbPrivilegesProvider;
 use Oro\Component\PhpUtils\ArrayUtil;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\Intl\Intl;
@@ -210,7 +211,6 @@ class OroRequirements extends SymfonyRequirements
             'memory_limit should be at least 512M',
             'Set the "<strong>memory_limit</strong>" setting in php.ini<a href="#phpini">*</a> to at least "512M".'
         );
-
         $nodeJsExecutableFinder = new NodeJsExecutableFinder();
         $nodeJsExecutable = $nodeJsExecutableFinder->findNodeJs();
         $nodeJsExists = null !== $nodeJsExecutable;
@@ -291,11 +291,19 @@ class OroRequirements extends SymfonyRequirements
             );
         }
 
+        // Check database configuration
         $configYmlPath = $baseDir . '/config/config_' . $env . '.yml';
         if (is_file($configYmlPath)) {
             $config = $this->getParameters($configYmlPath);
             $pdo = $this->getDatabaseConnection($config);
             if ($pdo) {
+                $requiredPrivileges = ['INSERT', 'SELECT', 'UPDATE', 'DELETE', 'TRUNCATE', 'REFERENCES', 'TRIGGER', 'CREATE', 'DROP'];
+                $notGrantedPrivileges = $this->getNotGrantedPrivileges($pdo, $requiredPrivileges, $config);
+                $this->addOroRequirement(
+                    empty($notGrantedPrivileges),
+                    sprintf('%s database privileges must be granted', implode(', ', $requiredPrivileges)),
+                    sprintf('Grant %s privileges on database "%s" to user "%s"', implode(', ', $notGrantedPrivileges), $config['database_name'], $config['database_user'])
+                );
                 $this->addOroRequirement(
                     $this->isUuidSqlFunctionPresent($pdo),
                     'UUID SQL function must be present',
@@ -473,6 +481,26 @@ class OroRequirements extends SymfonyRequirements
         }
 
         return true;
+    }
+
+    /**
+     * @param PDO $pdo
+     * @param array $requiredPrivileges
+     * @param array $config
+     * @return array
+     */
+    protected function getNotGrantedPrivileges(PDO $pdo, array $requiredPrivileges, array $config): array
+    {
+        if ($pdo->getAttribute(PDO::ATTR_DRIVER_NAME) === 'pgsql') {
+            $granted = DbPrivilegesProvider::getPostgresGrantedPrivileges($pdo, $config['database_name']);
+        } else {
+            $granted = DbPrivilegesProvider::getMySqlGrantedPrivileges($pdo, $config['database_name']);
+            if (in_array('ALL PRIVILEGES', $granted, true)) {
+                $granted = $requiredPrivileges;
+            }
+        }
+
+        return array_diff($requiredPrivileges, $granted);
     }
 
     /**
