@@ -33,7 +33,6 @@
     "oro/crm-zendesk": "4.2.*",
     "oro/commerce": "4.2.*",
     "oro/commerce-crm": "4.2.*",
-    "oro/commerce-wirecard": "4.2.*",
     "oro/commerce-infinitepay": "4.2.*",
     "oro/commerce-dpd": "4.2.*",
     "oro/german-localization": "4.2.*",
