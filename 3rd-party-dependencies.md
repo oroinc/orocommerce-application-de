@@ -90,7 +90,6 @@
 |[guzzlehttp/guzzle](https://github.com/guzzle/guzzle.git)|MIT|
 |[guzzlehttp/promises](https://github.com/guzzle/promises.git)|MIT|
 |[guzzlehttp/psr7](https://github.com/guzzle/psr7.git)|MIT|
-|[hochstrasserio/wirecard](https://github.com/hochstrasserio/wirecard.git)|MIT|
 |[hwi/oauth-bundle](https://github.com/hwi/HWIOAuthBundle.git)|MIT|
 |[imagine/imagine](https://github.com/avalanche123/Imagine.git)|MIT|
 |[incenteev/composer-parameter-handler](https://github.com/Incenteev/ParameterHandler.git)|MIT|
