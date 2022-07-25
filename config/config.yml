@@ -85,7 +85,6 @@ oro_message_queue:
 
 oro_layout:
     enabled_themes:
-        - blank
         - default
         - custom
         - view-switcher
