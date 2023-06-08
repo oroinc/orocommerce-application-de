@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "95ced36a2e645a9a4e003b0897c38c8d",
+    "content-hash": "fbc05b15d575be7a2ac6c313fc6e6e71",
     "packages": [
         {
             "name": "ass/xmlsecurity",
@@ -6709,53 +6709,6 @@
             ],
             "description": "Oro dotdigital integration",
             "homepage": "https://github.com/oroinc/OroCRMDotmailerBundle.git",
-            "transport-options": {
-                "relative": true
-            }
-        },
-        {
-            "name": "oro/crm-hangouts-call-bundle",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../../package/google-hangout",
-                "reference": "e1e6994c280af921de751ec0d33002140dd72851"
-            },
-            "require": {
-                "oro/calendar-bundle": "5.1.*",
-                "oro/crm-call-bundle": "5.1.*",
-                "oro/platform": "5.1.*"
-            },
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Oro\\Bundle\\HangoutsCallBundle\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "license": [
-                "OSL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
-                }
-            ],
-            "description": "Oro Google Hangouts integration",
-            "homepage": "https://github.com/oroinc/OroCRMHangoutsCallBundle.git",
-            "keywords": [
-                "Google Hangouts",
-                "Oro",
-                "integration"
-            ],
             "transport-options": {
                 "relative": true
             }
@@ -19686,7 +19639,6 @@
         "oro/crm-task-bundle": 20,
         "oro/crm-call-bundle": 20,
         "oro/commerce-crm": 20,
-        "oro/crm-hangouts-call-bundle": 20,
         "oro/crm-dotmailer": 20,
         "oro/crm-zendesk": 20,
         "oro/commerce-dpd": 20,
